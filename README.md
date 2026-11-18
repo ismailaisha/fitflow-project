@@ -1,4 +1,4 @@
-FitFlow
+FitFlow.
 FitFlow is my diploma project for the DevOps course. It is a web application for trainers and clients to manage training programs, schedules, and attendance. My part of the project was setting up the servers, deploying the application, and monitoring it.
 How I set it up
 I used Terraform to create two Linux servers in Azure: one for FitFlow and one for Jenkins. I also used three local virtual machines. Two run PostgreSQL, one as the primary database and the other as its replica. The third runs monitoring and the K3s control plane. WireGuard connects the Azure and local servers over a private network.
